@@ -45,7 +45,7 @@ exports.showAllCategories = async (req, res) => {
 	}
 };
 
-//categoryPageDetails 
+
 
 exports.categoryPageDetails = async (req, res) => {
     try {
@@ -59,8 +59,7 @@ exports.categoryPageDetails = async (req, res) => {
           populate: "ratingAndReviews",
         })
         .exec()
-  
-      //console.log("SELECTED COURSE", selectedCategory)
+
       // Handle the case when the category is not found
       if (!selectedCategory) {
         console.log("Category not found.")
