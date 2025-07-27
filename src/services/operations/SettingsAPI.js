@@ -14,7 +14,7 @@ const {
 
 export function updateDisplayPicture(token, formData) {
   return async (dispatch) => {
-    const toastId = toast.loading("Loading...")
+    const toastId = toast.loading("Loading..")
     try {
       const response = await apiConnector(
         "PUT",
