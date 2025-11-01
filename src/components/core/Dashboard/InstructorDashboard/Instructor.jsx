@@ -88,7 +88,7 @@ export default function Instructor() {
               </div>
             </div>
             <div className="rounded-md bg-richblack-800 p-6">
-              {/* Render 3 courses */}
+              
               <div className="flex items-center justify-between">
                 <p className="text-lg font-bold text-richblack-5">Your Courses</p>
                 <Link to="/dashboard/my-courses">
