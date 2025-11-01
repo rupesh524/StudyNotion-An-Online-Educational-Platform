@@ -11,7 +11,6 @@ function RatingStars({ Review_Count, Star_Size }) {
     half: 0,
     empty: 0,
   })
-
   useEffect(() => {
     const wholeStars = Math.floor(Review_Count) || 0
     SetStarCount({
