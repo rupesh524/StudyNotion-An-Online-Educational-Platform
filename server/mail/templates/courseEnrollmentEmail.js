@@ -15,8 +15,6 @@ exports.courseEnrollmentEmail = (courseName, name) => {
                 margin: 0;
                 padding: 0;
             }
-    
-    
             .container {
                 max-width: 600px;
                 margin: 0 auto;
