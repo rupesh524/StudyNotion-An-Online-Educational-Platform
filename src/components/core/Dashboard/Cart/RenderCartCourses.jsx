@@ -47,6 +47,7 @@ export default function RenderCartCourses() {
               </div>
             </div>
           </div>
+          
           <div className="flex flex-col items-end space-y-2">
             <button
               onClick={() => dispatch(removeFromCart(course._id))}
