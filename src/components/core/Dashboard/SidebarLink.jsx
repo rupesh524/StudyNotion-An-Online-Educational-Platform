@@ -12,7 +12,6 @@ export default function SidebarLink({ link, iconName }) {
   const matchRoute = (route) => {
     return matchPath({ path: route }, location.pathname)
   }
-
   return (
     <NavLink
       to={link.path}
