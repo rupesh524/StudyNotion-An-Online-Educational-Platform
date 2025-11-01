@@ -35,7 +35,6 @@ export default function VideoDetailsSidebar({ setReviewModal }) {
       setActiveStatus(courseSectionData?.[currentSectionIndx]?._id)
       setVideoBarActive(activeSubSectionId)
     })()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [courseSectionData, courseEntireData, location.pathname])
 
   return (
@@ -79,9 +78,7 @@ export default function VideoDetailsSidebar({ setReviewModal }) {
                   {course?.sectionName}
                 </div>
                 <div className="flex items-center gap-3">
-                  {/* <span className="text-[12px] font-medium">
-                    Lession {course?.subSection.length}
-                  </span> */}
+                 
                   <span
                     className={`${
                       activeStatus === course?.sectionName
