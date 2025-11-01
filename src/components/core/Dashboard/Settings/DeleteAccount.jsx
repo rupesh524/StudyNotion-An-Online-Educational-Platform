@@ -8,7 +8,6 @@ export default function DeleteAccount() {
   const { token } = useSelector((state) => state.auth)
   const dispatch = useDispatch()
   const navigate = useNavigate()
-
   async function handleDeleteAccount() {
     try {
       dispatch(deleteProfile(token, navigate))
