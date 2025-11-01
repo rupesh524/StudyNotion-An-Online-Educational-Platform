@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 import Logo from "../../assets/Logo/Logo-Full-Light.png";
 
-
 import { FaFacebook, FaGoogle, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const BottomFooter = ["Privacy Policy", "Cookie Policy", "Terms"];
@@ -171,8 +170,6 @@ const Footer = () => {
               );
             })}
           </div>
-
-          <div className="text-center">Made with ❤️ CodeHelp © 2023 Studynotion</div>
         </div>
       </div>
     </div>
