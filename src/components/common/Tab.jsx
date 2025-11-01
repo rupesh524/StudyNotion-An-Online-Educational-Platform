@@ -6,6 +6,7 @@ export default function Tab({ tabData, field, setField }) {
         }}
         className="flex bg-richblack-800 p-1 gap-x-1 my-6 rounded-full max-w-max"
       >
+          
         {tabData.map((tab) => (
           <button
             key={tab.id}
