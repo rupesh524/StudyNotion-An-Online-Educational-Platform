@@ -10,7 +10,6 @@ const {
 const { paymentSuccessEmail } = require("../mail/templates/paymentSuccessEmail")
 const CourseProgress = require("../models/CourseProgress")
 
-
 exports.capturePayment = async (req, res) => {
   const { courses } = req.body
   const userId = req.user.id
