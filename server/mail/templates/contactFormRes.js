@@ -10,6 +10,7 @@ exports.contactUsEmail = (
     <html>
     
     <head>
+    
         <meta charset="UTF-8">
         <title>Contact Form Confirmation</title>
         <style>
