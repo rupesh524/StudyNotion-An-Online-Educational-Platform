@@ -124,6 +124,7 @@ module.exports = {
         900: "#141414",
       },
     },
+    
     extend: {
       maxWidth: {
         maxContent: "1260px",
