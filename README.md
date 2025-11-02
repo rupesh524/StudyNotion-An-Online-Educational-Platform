@@ -78,7 +78,7 @@ The backend follows a **monolithic architecture**, built with **Node.js** and **
 
 ---
 
-### 🧩 Frameworks, Libraries & Tools
+###  Frameworks, Libraries & Tools
 
 | Category | Technology |
 |-----------|-------------|
